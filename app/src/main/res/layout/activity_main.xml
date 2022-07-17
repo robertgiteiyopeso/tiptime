@@ -53,4 +53,14 @@
 
     </RadioGroup>
 
+    <Switch
+        android:id="@+id/round_up_switch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tip_options"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:checked="true"
+        android:text="Round up tip?"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
